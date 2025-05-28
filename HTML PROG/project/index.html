@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+</head>
+<body bgcolor="lavendar">
+    <form action="main.java" method="get">
+        <label for="na">Enter name:</label>
+        <input type="text" placeholder="enter your name" name="name" id="na">
+        <br>
+        <br>
+        <div>
+         <label for="ag">Age:</label>
+         <input type="number" name="age" id="ag" required min="18" max="50">
+    </div>
+         <br><br>
+         <label for="">Gender:</label>
+         <label for="m">Male</label>
+         <input type="radio" name="gender" id="m">
+         <label for="f">Female</label>
+         <input type="radio" name="gender" id="f">
+         <br><br>
+         <label for="c">DOB:</label>
+         <input type="date" name="date of birth" id="c">
+         <br><br>
+         <label for="">Category: </label>
+         <label for="r">GEN</label>
+         <input type="radio" name="category" id="r">
+         <label for="o">OBC</label>
+         <input type="radio" name="category" id="o">
+         <label for="s">SC</label>
+         <input type="radio" name="category" id="s">
+         <label for="t">ST</label>
+         <input type="radio" name="category" id="t">
+         <br><br>
+         <label for="y">Year Of Pass</label>
+         <input type="year" name="year" id="y">
+         <br>
+         <br>
+          <label for="br">Choose the Course</label>
+          <input type="text" id="selectedCourses" readonly placeholder="Selected courses will appear here">
+   <select name="branch" id="br" size="6" multiple onchange="updateSelectedCourses()">
+      <option value="">Select Course</option>
+      <optgroup label="Engineering">
+        <option value="EEE">EEE</option>
+      <option value="CSE">CSE</option>
+      <option value="ECE">ECE</option>
+      <option value="AIDS">AI&DS</option>
+      <option value="civil">CIVIL</option>
+      </optgroup>
+      <optgroup label="degree">
+        <option value="BSC">BSC</option>
+      <option value="BCOM">BCOM</option>
+      <option value="BBA">BBA</option>
+      </optgroup>
+      <optgroup label="PG">
+        <option value="MBA">MBA</option>
+      </optgroup>
+    </select>   <br><br>
+         <button type="SUBMIT">SUBMIT</button>
+          <script>
+        function updateSelectedCourses() {
+            const select = document.getElementById('br');
+            const selected = Array.from(select.selectedOptions).map(option => option.value);
+            document.getElementById('selectedCourses').value = selected.join(', ');
+        }
+    </script>
+
+
+
+
+
+         
+
+
+
+
+    </form>
+</body>
+</html>
