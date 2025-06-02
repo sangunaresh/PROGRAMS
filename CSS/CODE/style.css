@@ -1,9 +1,41 @@
+ .box{
+
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+  .circle-img{
+    border-radius:50px;
+    height: 250px;
+    width: 250px;
+}
 body{
-    background-color: blue;
+    height: 100vh;
+    background-color: white;
 }
-.naresh{
-    background-color:rgba(32, 199, 221, 0.925);
+ #card {
+    width: 20vw;
+    margin: 30vh auto;
+     background-color: #C1DBB3;
+     padding: 100px 100px;
+     border-radius: 30px;
+     text-align: center;
+  }
+   
+    h2,h3,p,button{
+    margin: 10px 0px;
+    }
+    button{
+    padding: 10px 20px;
+    border-radius: 5px 5px;
 }
-#id{
-    background-color: rgb(216, 129, 16);
+
+  .fa-brands{
+     margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
