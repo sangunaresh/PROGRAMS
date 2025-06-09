@@ -1,0 +1,91 @@
+*{  
+}
+body{
+    background-color: lightpink;
+}
+/*.card{
+    height: auto;
+    width: 600px;
+    border:border-box ;
+    background-color: white;
+    border-radius: 10px;
+text-align: left;
+padding: 15px 10px;
+list-style-position: inside;
+
+}
+/* .card {
+    height: auto;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px 20px;
+    list-style-position: inside;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+Optional styling for ul and ol spacing */
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* Small style tweaks */
+hr {
+    margin: 15px 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px 0;
+}
+
+
+.c{
+    text-align: center;
+}
+.card1{
+    height: 150px;
+    width: 500px;
+    list-style-position: inside;
+    background-color: rgb(231, 204, 204);
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 50px;
+}
+.k{
+    padding-right: 50px;
+}
+.l{
+    -webkit-text-fill-color:maroon;
+}
+.v{
+    -webkit-text-fill-color:maroon;
+}
+.b{
+    -webkit-text-fill-color:maroon;
+}
+.c1{
+    -webkit-text-fill-color:maroon;
+}
+.c2{
+    -webkit-text-fill-color:maroon;
+}
+.c3{
+    -webkit-text-fill-color:maroon;
+}
+.c4{
+    -webkit-text-fill-color:maroon;
+}
+.c5{
+    -webkit-text-fill-color:maroon;
+}
+.c6{
+    -webkit-text-fill-color:maroon;
+}*/
+#img{
+    height: 10px;
+    width: 10px;
+}
+
