@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+    margin: 20px;
+    
+}
+#image{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    right: 30px;
+    /* animation: rotate 7s ease-in; */
+    /* animation-direction: alternate; */
+}
+
+/*@keyframes rotate{
+ from{
+
+ }
+ to{
+    transform:  translateX(2000px) translateY(200px) rotate(720deg);
+ }
+}*/
